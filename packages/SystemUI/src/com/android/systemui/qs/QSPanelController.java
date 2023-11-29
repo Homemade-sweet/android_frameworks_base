@@ -189,7 +189,7 @@ public class QSPanelController extends QSPanelControllerBase<QSPanel> {
     	mBrightnessMirrorController = brightnessMirrorController;
         mBrightnessMirrorHandler.setController(brightnessMirrorController);
     }
-    
+
     /** Update appearance of QSPanel. */
     public void updateResources() {
         mView.updateResources();
